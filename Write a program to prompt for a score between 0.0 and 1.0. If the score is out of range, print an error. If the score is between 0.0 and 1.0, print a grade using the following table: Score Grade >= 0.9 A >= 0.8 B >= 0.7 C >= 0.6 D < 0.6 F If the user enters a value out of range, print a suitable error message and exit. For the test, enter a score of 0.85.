@@ -1,19 +1,21 @@
 try:
-    score = float(input("Enter the number :"))
-    if((0.0<=score) and (1.0 >= score)):
-            if(score>=0.9 and score <= 1.0):
-                print("A")
+    z=input("enter score")
+    score = float(z)
+    if(0.0<=score):
+        if(score<=1.0):
+            if(score>=0.9):
+                printf("A")
             elif(score>=0.8):
                 print("B")
             elif(score>=0.7):
-                print("C")
+                printf("C")
             elif(score>=0.6):
                 print("D")
             elif(score>=0.5):
-                print("E")
+                printf("E")
             else:
                 print("F")
     else:
-        print("out of range")
+        printf("out of range")
 except:
     print("error in code")
