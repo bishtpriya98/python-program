@@ -1,0 +1,26 @@
+Quest: program to count characters using dictionary
+
+
+program:
+dictionary=dict();
+i=int();
+#for alpha in "abcdefghijklmnopqrstuvwxyz ": 
+#    dictionary[alpha]=i;
+
+def fun():
+   # s=input("enter text to count characters:");          #use this to enter text during runtime;
+    s="Enter your text here:"                            #use this if you are using online compiler
+    return s;
+ 
+for ch in fun():
+    try:
+        dictionary[ch]=dictnary[ch]+1; 
+    except:
+        dictionary[ch]=1;
+    
+    
+for char in dictionary:
+    if (dictionary[char] >= 1):
+        print(char,dictionary[char]);
+
+print(dictionary)       
