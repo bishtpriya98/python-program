@@ -27,3 +27,14 @@ print(dictionary)
 
 dictionary.clear();                                        #clear the data of dictionary
 del dictionary;                                            #delete dictionary
+
+
+##program 2nd:
+
+f=dict();
+l=input('enter text');
+print(l)
+for ch in l:
+    f[ch]=f.get(ch,0)+1;
+print(f)
+
