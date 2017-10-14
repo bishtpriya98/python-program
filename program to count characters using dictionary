@@ -13,7 +13,7 @@ def fun():
     return s;
  
 for ch in fun():
-    try:
+    try:                                                 #or use dictionary[ch]=dictionary.get(ch,0)+1;
         dictionary[ch]=dictnary[ch]+1; 
     except:
         dictionary[ch]=1;
