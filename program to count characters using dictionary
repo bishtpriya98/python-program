@@ -24,3 +24,6 @@ for char in dictionary:
         print(char,dictionary[char]);
 
 print(dictionary)       
+
+dictionary.clear();                                        #clear the data of dictionary
+del dictionary;                                            #delete dictionary
