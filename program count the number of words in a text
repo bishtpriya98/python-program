@@ -1,0 +1,8 @@
+#this program count the number of words in a text;
+
+text=dict();
+lst=input('enter text:');
+lst=lst.split();
+for words in lst:
+    text[words]=text.get(words,0)+1;
+print(text)
