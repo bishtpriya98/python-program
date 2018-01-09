@@ -80,3 +80,14 @@ for tag in tags:
     else:
         j=j+1;
 
+output:
+
+http://py4e-data.dr-chuck.net/known_by_Maryum.html
+http://py4e-data.dr-chuck.net/known_by_Jadon.html
+http://py4e-data.dr-chuck.net/known_by_Truli.html
+http://py4e-data.dr-chuck.net/known_by_Aleksandar.html
+http://py4e-data.dr-chuck.net/known_by_Darah.html
+http://py4e-data.dr-chuck.net/known_by_Rehanna.html
+http://py4e-data.dr-chuck.net/known_by_Logan.html
+['Logan']
+[Finished in 4.867s]
